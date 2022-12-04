@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+h1,
+h2 {
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+    height: 500px;
+    display: flex;
+}
+
+/* Header */
+
+.header {
+    background: #1f2937;
+    /* border: 5px solid white;  */
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.header .logo h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header a:hover {
+    color: #3882f6;
+}
+
+/* Hero */
+
+.hero {
+    background: #1f2937;
+}
+
+.hero .container {
+    align-items: center;
+    flex-basis: 250px;
+    gap: 30px;
+}
+
+.left-hero, .right-hero {
+    /* border: 2px solid white; */
+    width: 500px;
+    height: 250px;
+}
+
+.left-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.left-hero button {
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: hsl(220, 13%, 91%);
+}
+
+/* Buttons */
+
+button {
+    padding: 5px 20px;
+    color: white;
+    border: black;
+    border-radius: 7px;
+    background-color: #3882f6;
+}
+
+button:hover {
+    background-color: white;
+    color: #3882f6;
+    cursor: pointer;
+}
+
+/* Information */
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.info .image {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.info p {
+    font-size: 18px;
+    color: gray;
+}
+
+/* Quote */
+
+.quote {
+    background: #e5e7eb;
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .quote-author {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* Call to Action */
+
+.action-call .action-call-box {
+    background: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+.footer {
+    background: #1f2937;
+    color: #F9FAF8;
+    height: 60px;
+}
+
+
